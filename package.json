@@ -1,0 +1,32 @@
+{
+  "name": "price-comparing-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start:prod": "node src/app.js",
+    "start": "nodemon src/app.js"
+  },
+  "author": "Mohamed Amine Boudagga",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "gravatar": "^1.8.2",
+    "http-status": "^1.7.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "mongoose-delete": "^1.0.1",
+    "twilio": "^4.18.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "eslint": "^8.51.0",
+    "nodemon": "^3.0.1"
+  }
+}
